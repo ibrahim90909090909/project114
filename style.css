@@ -1,0 +1,28 @@
+h3
+{
+font-size: 25px !important;
+}
+.btn-success:hover
+{
+background-color:red
+}
+canvas{
+animation-name: example;
+animation-duration: 9s;
+animation-iteration-count: infinite;
+}
+@keyframes example{
+0% {box-shadow:1px 1px 38px red;}
+5% {box-shadow:1px 1px 38px yellowgreen;}
+10% {box-shadow:1px 1px 38px aqua;}
+10% {box-shadow:1px 1px 38px aquamarine;}
+20% {box-shadow:1px 1px 38px green;}
+30% {box-shadow:1px 1px 38px blue;}
+40% {box-shadow:1px 1px 38px pink;}
+50% {box-shadow:1px 1px 38px purple;}
+60% {box-shadow:1px 1px 38px blueviolet;}
+70% {box-shadow:1px 1px 38px violet;}
+80% {box-shadow:1px 1px 38px yellow;}
+90% {box-shadow:1px 1px 38px goldenrod;}
+100% {box-shadow:1px 1px 38px gold;}
+}
